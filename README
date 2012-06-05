@@ -1,0 +1,8 @@
+cpp2java parses a XML file produced by Doxygen (which should contain
+documentation obtained from C++ sources) and 'tries' to produce Java
+skeleton classes.
+
+The translation is far from perfect.
+Anyway, it makes life easier when C++ sources are 'well behaved'.
+Templates, in particular, are known to break the translation.
+
